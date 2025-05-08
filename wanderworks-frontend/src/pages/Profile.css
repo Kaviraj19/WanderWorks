@@ -1,0 +1,141 @@
+/* src/pages/Profile.css */
+
+.profile-page {
+  background-color: #121212;
+  color: #f1f1f1;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.user-info {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.user-info p {
+  margin: 10px 0;
+}
+
+.user-info strong {
+  color:  #3fc560;
+}
+
+/* Toggle buttons for Bookings and Payments */
+.toggle-buttons {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center; /* Center the toggle buttons */
+}
+
+.toggle-buttons button {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+  border: 1px solid #333;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-buttons button:hover {
+  background-color: #333;
+}
+
+.toggle-buttons button.active {
+  background-color: #3fc560;
+  color: #fff;
+  border-color: #3fc560;
+}
+
+/* Loading and error states */
+.loading, .error {
+  font-size: 1.2rem;
+  color: #f44336;
+  text-align: center;
+}
+
+/* Table Styling for Bookings */
+.table {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #121212;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.table th, .table td {
+  text-align: center;
+  padding: 12px;
+}
+
+.table th {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+}
+
+.table td {
+  background-color: #2c2c2c;
+  color: #f1f1f1;
+}
+
+.table .btn {
+  margin-right: 10px;
+  background-color: #3fc560;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.table .btn:hover {
+  background-color: #43a047;
+}
+
+.table .btn-primary {
+  background-color: #0b5ed7;
+}
+
+.table .btn-primary:hover {
+  background-color: #2e3497;
+}
+
+/* Ensure the table is responsive */
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px;
+  }
+  .table th, .table td {
+    padding: 12px;
+  }
+}
+.filter-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-label {
+  color: #f1f1f1;
+  margin-right: 10px;
+}
+
+.filter-select {
+  background-color:  #3fc560;
+  color: #f1f1f1;
+  border: 1px solid #333;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.filter-select:hover {
+  background-color:  #43a047;
+}

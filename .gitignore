@@ -1,0 +1,19 @@
+# Ignore node_modules for both frontend and backend
+**/node_modules/
+**/dist/
+**/build/
+
+# Ignore .env files everywhere
+**/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Optional: Ignore coverage from tests
+coverage/

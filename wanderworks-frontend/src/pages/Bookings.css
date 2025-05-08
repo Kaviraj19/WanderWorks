@@ -1,0 +1,86 @@
+/* Bookings.css */
+
+/* Main container */
+.booking-form {
+    background-color: #242424;
+    color: #e0e0e0;
+    padding: 30px;
+    max-width: 600px;
+    margin: 40px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Title */
+  .booking-form h2 {
+    font-size: 2.5rem;
+    color: #9ce18c;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Form fields */
+  .booking-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .booking-form label {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 2px;
+  }
+  
+  .booking-form input[type="datetime-local"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #464646;
+    color: #e0e0e0;
+  }
+  
+  /* Cost breakdown */
+  .cost-breakdown {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
+  .cost-breakdown strong {
+    color: #50fa7b;
+  }
+  
+  /* Booking type and cost display */
+  .booking-form p {
+    font-size: 1.1rem;
+    color: #ccc;
+  }
+  
+  /* Submit button */
+  .booking-form button {
+    background-color: #43a047;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-form button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Error message */
+  .error {
+    color: #ff6b6b;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  

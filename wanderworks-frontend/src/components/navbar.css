@@ -1,0 +1,334 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #0e0e0e;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+  }
+  
+  .navbar-brand a {
+    color: #43a047;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  .navbar-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar-nav a:hover {
+    color: #43a047;
+  }
+  
+  .logout-btn {
+    background-color: #43a047;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .user-icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* WorkspaceCard Styles */
+  .workspace-card {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 15px 0;
+  }
+  
+  .workspace-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .workspace-card h3 {
+    font-size: 1.8rem;
+    color: #fff;
+  }
+  
+  .workspace-card p {
+    color: #ccc;
+    font-size: 1rem;
+  }
+  
+  .workspace-card .btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .workspace-card .details-btn {
+    background-color: #50fa7b;
+    color: #121212;
+    font-size: 1.1rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .workspace-card .details-btn:hover {
+    background-color: #3e8640;
+  }
+
+  /* Add this to your CSS file (e.g., navbar.css) */
+
+.workspace-image {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+
+  
+.reviews {
+  background-color: #201f1f;
+  padding: 20px;
+  border-radius: 10px;
+  color:#50fa7b; /* Make text black */
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reviews h3 {
+  margin-bottom: 1rem;
+  font-size: 24px;
+  border-bottom: 2px solid #50fa7b;
+  padding-bottom: 5px;
+}
+
+.reviews ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.reviews li {
+  background-color: #323131;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reviews textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: #c2c5c3;
+  border-radius: 6px;
+  background-color: #323131;
+  border: 1px solid #242424;
+  margin-bottom: 10px;
+}
+
+.reviews select {
+  padding: 6px;
+  border-radius: 4px;
+  margin-left: 5px;
+  width: 100%;
+  padding: 12px;
+  color: #c2c5c3;
+  background-color: #323131;
+}
+
+.reviews button {
+  background-color: #36b355;
+  color: rgb(252, 252, 252);
+  padding: 8px 16px;
+  border: none;
+ margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.reviews button:hover {
+  background-color: #3cad58;
+}
+.reviews label {
+ color: #50fa7b; /* Make text black */
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+  
+  /* Footer Styles */
+  footer {
+    background-color: #121212;
+    padding: 1px;
+    color: #f1f1f1;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  /* Footer.css */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+    z-index: 100;
+  }
+  
+  
+  .footer-content p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .footer-content a {
+    color: #50fa7b;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  /* Container for the filter form */
+/* Container for the filter form */
+.filter-container {
+    background-color: #2f2e2e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(233, 230, 230, 0.1);
+    margin-bottom: 30px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows elements to wrap if screen is too small */
+    gap: 20px;
+  }
+  
+  /* Styling for labels in filter form */
+  .filter-container label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #f8f7f7;
+    margin-right: 3px;
+  }
+  
+  /* Styling for the input fields */
+  .filter-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    background-color: #fff;
+    width: 100%; /* Make input fields take up the full available space */
+    max-width: 200px; /* Restrict max width to avoid inputs being too large */
+  }
+  
+  /* Adding some spacing between form elements */
+  .filter-container label,
+  .filter-container input {
+    margin-bottom: 0;
+  }
+  
+  /* Optional hover effect for input fields */
+  .filter-container input:hover {
+    border-color: #888;
+  }
+  /* PaymentsComponent Styles */
+.payments-table {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.payments-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payments-table th,
+.payments-table td {
+  padding: 12px;
+  text-align: left;
+  color: #ccc;
+  font-size: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.payments-table th {
+  background-color: #323131;
+  color: #50fa7b;
+}
+
+.payments-table tbody tr:nth-child(even) {
+  background-color: #272727;
+}
+
+.payments-table tbody tr:hover {
+  background-color: #444;
+}
+
+.payments-table .no-payments {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Loading and Error Message Styles */
+.payments-table .loading,
+.payments-table .error {
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Additional Custom Button Styles (Optional for future use) */
+.details-btn {
+  background-color: #50fa7b;
+  color: #121212;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+  background-color: #3e8640;
+}
+
